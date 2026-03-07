@@ -141,12 +141,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Team
 
-- **Project Lead**: [Your Name]
-- **Backend Developer**: [Team Member]
-- **Frontend Developer**: [Team Member]
-- **UI/UX Designer**: [Team Member]
+- **Project Lead**: Jivan patel
+- **Backend Developer**: Mayank lumbhani
+- **Frontend Developer**: Parv suhagiya
+- **UI/UX Designer**: Prathvik mehra
 
 ---
 
 **Built with ❤️ for Indian farmers during EliteHack 2024**
+
 
