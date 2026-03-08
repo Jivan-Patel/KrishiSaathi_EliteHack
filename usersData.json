@@ -1,0 +1,30 @@
+[
+    {
+        "_id": "u001",
+        "username": "Rajan Patel",
+        "email": "farmer@krishisaathi.com",
+        "password": "farmer123",
+        "role": "farmer"
+    },
+    {
+        "_id": "u002",
+        "username": "Ananya Sharma",
+        "email": "buyer@krishisaathi.com",
+        "password": "buyer123",
+        "role": "buyer"
+    },
+    {
+        "_id": "u003",
+        "username": "Vikram Mehta",
+        "email": "seller@krishisaathi.com",
+        "password": "seller123",
+        "role": "seller"
+    },
+    {
+        "_id": "u004",
+        "username": "Suresh Desai",
+        "email": "transporter@krishisaathi.com",
+        "password": "transporter123",
+        "role": "transporter"
+    }
+]

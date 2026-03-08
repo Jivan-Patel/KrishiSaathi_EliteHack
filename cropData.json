@@ -1,0 +1,2963 @@
+[
+    {
+        "id": 1,
+        "name": "Wheat",
+        "season": "Rabi",
+        "suitableStates": [
+            "Punjab",
+            "Haryana",
+            "Uttar Pradesh",
+            "Madhya Pradesh"
+        ],
+        "soilTypes": [
+            "Alluvial",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "March",
+            "April"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (120:60:40 kg/ha)",
+            "topDressing": "Urea after 21 days of sowing"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Spray Imidacloprid or neem-based pesticide"
+            }
+        ],
+        "expectedYield": "4-5 tons per hectare",
+        "avgMarketPricePerQuintal": 2585
+    },
+    {
+        "id": 2,
+        "name": "Rice",
+        "season": "Kharif",
+        "suitableStates": [
+            "West Bengal",
+            "Punjab",
+            "Uttar Pradesh",
+            "Andhra Pradesh"
+        ],
+        "soilTypes": [
+            "Clayey",
+            "Alluvial"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "October",
+            "November"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:50:50 kg/ha)",
+            "topDressing": "Nitrogen application in 2 splits"
+        },
+        "commonPests": [
+            {
+                "name": "Stem Borer",
+                "solution": "Use Chlorantraniliprole spray"
+            }
+        ],
+        "expectedYield": "3-6 tons per hectare",
+        "avgMarketPricePerQuintal": 2369
+    },
+    {
+        "id": 3,
+        "name": "Cotton",
+        "season": "Kharif",
+        "suitableStates": [
+            "Maharashtra",
+            "Gujarat",
+            "Telangana"
+        ],
+        "soilTypes": [
+            "Black"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "May",
+            "June"
+        ],
+        "harvestingMonths": [
+            "October",
+            "January"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Potassium during flowering stage"
+        },
+        "commonPests": [
+            {
+                "name": "Bollworm",
+                "solution": "Use Bt cotton seeds or biological pesticides"
+            }
+        ],
+        "expectedYield": "2-3 tons per hectare",
+        "avgMarketPricePerQuintal": 7910
+    },
+    {
+        "id": 4,
+        "name": "Maize",
+        "season": "Kharif",
+        "suitableStates": [
+            "Karnataka",
+            "Bihar",
+            "Madhya Pradesh"
+        ],
+        "soilTypes": [
+            "Loamy",
+            "Red"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (120:60:40 kg/ha)",
+            "topDressing": "Urea at knee-high stage"
+        },
+        "commonPests": [
+            {
+                "name": "Fall Armyworm",
+                "solution": "Use Spinosad spray"
+            }
+        ],
+        "expectedYield": "5-7 tons per hectare",
+        "avgMarketPricePerQuintal": 2400
+    },
+    {
+        "id": 5,
+        "name": "Sugarcane",
+        "season": "Annual",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Maharashtra",
+            "Karnataka"
+        ],
+        "soilTypes": [
+            "Alluvial",
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "February",
+            "March"
+        ],
+        "harvestingMonths": [
+            "December",
+            "January"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (150:60:60 kg/ha)",
+            "topDressing": "Nitrogen every 45 days"
+        },
+        "commonPests": [
+            {
+                "name": "Early Shoot Borer",
+                "solution": "Use Chlorpyrifos treatment"
+            }
+        ],
+        "expectedYield": "60-80 tons per hectare",
+        "avgMarketPricePerQuintal": 340
+    },
+    {
+        "id": 6,
+        "name": "Barley",
+        "season": "Rabi",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Rajasthan",
+            "Haryana",
+            "Punjab"
+        ],
+        "soilTypes": [
+            "Loamy",
+            "Alluvial"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "March",
+            "April"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Urea at tillering"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Imidacloprid or neem oil"
+            }
+        ],
+        "expectedYield": "2-4 tons per hectare",
+        "avgMarketPricePerQuintal": 2150
+    },
+    {
+        "id": 7,
+        "name": "Chickpea (Gram)",
+        "season": "Rabi",
+        "suitableStates": [
+            "Madhya Pradesh",
+            "Rajasthan",
+            "Uttar Pradesh",
+            "Maharashtra"
+        ],
+        "soilTypes": [
+            "Black",
+            "Loamy"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "February",
+            "March"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (20:40:20 kg/ha)",
+            "topDressing": "Single super phosphate"
+        },
+        "commonPests": [
+            {
+                "name": "Pod Borer",
+                "solution": "Chlorantraniliprole"
+            }
+        ],
+        "expectedYield": "1.5-2.5 tons per hectare",
+        "avgMarketPricePerQuintal": 5875
+    },
+    {
+        "id": 8,
+        "name": "Lentil (Masur)",
+        "season": "Rabi",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Madhya Pradesh",
+            "Bihar",
+            "West Bengal"
+        ],
+        "soilTypes": [
+            "Alluvial",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "February",
+            "March"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (20:40:20 kg/ha)",
+            "topDressing": "Urea split"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Neem oil spray"
+            }
+        ],
+        "expectedYield": "1-2 tons per hectare",
+        "avgMarketPricePerQuintal": 7000
+    },
+    {
+        "id": 9,
+        "name": "Mustard",
+        "season": "Rabi",
+        "suitableStates": [
+            "Rajasthan",
+            "Uttar Pradesh",
+            "Haryana",
+            "Madhya Pradesh"
+        ],
+        "soilTypes": [
+            "Loamy",
+            "Sandy loam"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "March",
+            "April"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (60:40:20 kg/ha)",
+            "topDressing": "Urea at 30 DAS"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Imidacloprid"
+            }
+        ],
+        "expectedYield": "1.5-2.5 tons per hectare",
+        "avgMarketPricePerQuintal": 6200
+    },
+    {
+        "id": 10,
+        "name": "Peas",
+        "season": "Rabi",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Punjab",
+            "Haryana",
+            "Himachal Pradesh"
+        ],
+        "soilTypes": [
+            "Alluvial",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "February",
+            "March"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (40:60:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Pod Borer",
+                "solution": "Spinosad"
+            }
+        ],
+        "expectedYield": "2-3 tons per hectare",
+        "avgMarketPricePerQuintal": 4500
+    },
+    {
+        "id": 11,
+        "name": "Potato",
+        "season": "Rabi",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "West Bengal",
+            "Punjab",
+            "Gujarat"
+        ],
+        "soilTypes": [
+            "Sandy loam",
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "January",
+            "February"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (120:80:100 kg/ha)",
+            "topDressing": "Urea + MOP"
+        },
+        "commonPests": [
+            {
+                "name": "Late Blight",
+                "solution": "Mancozeb fungicide"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 1800
+    },
+    {
+        "id": 12,
+        "name": "Bajra (Pearl Millet)",
+        "season": "Kharif",
+        "suitableStates": [
+            "Rajasthan",
+            "Maharashtra",
+            "Gujarat",
+            "Uttar Pradesh"
+        ],
+        "soilTypes": [
+            "Sandy",
+            "Red"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (60:30:20 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Shoot Fly",
+                "solution": "Carbofuran"
+            }
+        ],
+        "expectedYield": "1.5-3 tons per hectare",
+        "avgMarketPricePerQuintal": 2775
+    },
+    {
+        "id": 13,
+        "name": "Jowar (Sorghum)",
+        "season": "Kharif",
+        "suitableStates": [
+            "Maharashtra",
+            "Karnataka",
+            "Andhra Pradesh",
+            "Madhya Pradesh"
+        ],
+        "soilTypes": [
+            "Black",
+            "Red"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Shoot Fly",
+                "solution": "Neem seed kernel extract"
+            }
+        ],
+        "expectedYield": "2-4 tons per hectare",
+        "avgMarketPricePerQuintal": 3700
+    },
+    {
+        "id": 14,
+        "name": "Ragi (Finger Millet)",
+        "season": "Kharif",
+        "suitableStates": [
+            "Karnataka",
+            "Tamil Nadu",
+            "Andhra Pradesh",
+            "Odisha"
+        ],
+        "soilTypes": [
+            "Red",
+            "Laterite"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (60:30:30 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Leaf Blast",
+                "solution": "Carbendazim"
+            }
+        ],
+        "expectedYield": "2-3.5 tons per hectare",
+        "avgMarketPricePerQuintal": 4886
+    },
+    {
+        "id": 15,
+        "name": "Soybean",
+        "season": "Kharif",
+        "suitableStates": [
+            "Madhya Pradesh",
+            "Maharashtra",
+            "Rajasthan",
+            "Karnataka"
+        ],
+        "soilTypes": [
+            "Black",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (20:80:40 kg/ha)",
+            "topDressing": "DAP"
+        },
+        "commonPests": [
+            {
+                "name": "Stem Fly",
+                "solution": "Chlorantraniliprole"
+            }
+        ],
+        "expectedYield": "2-3 tons per hectare",
+        "avgMarketPricePerQuintal": 4200
+    },
+    {
+        "id": 16,
+        "name": "Groundnut",
+        "season": "Kharif",
+        "suitableStates": [
+            "Gujarat",
+            "Rajasthan",
+            "Andhra Pradesh",
+            "Tamil Nadu"
+        ],
+        "soilTypes": [
+            "Sandy loam",
+            "Red"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (40:60:40 kg/ha)",
+            "topDressing": "Gypsum"
+        },
+        "commonPests": [
+            {
+                "name": "White Grub",
+                "solution": "Chlorpyrifos"
+            }
+        ],
+        "expectedYield": "1.5-2.5 tons per hectare",
+        "avgMarketPricePerQuintal": 5500
+    },
+    {
+        "id": 17,
+        "name": "Pigeon Pea (Arhar/Tur)",
+        "season": "Kharif",
+        "suitableStates": [
+            "Maharashtra",
+            "Karnataka",
+            "Madhya Pradesh",
+            "Uttar Pradesh"
+        ],
+        "soilTypes": [
+            "Black",
+            "Red"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "November",
+            "December"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (20:40:20 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Pod Borer",
+                "solution": "Spinosad"
+            }
+        ],
+        "expectedYield": "1-2 tons per hectare",
+        "avgMarketPricePerQuintal": 8000
+    },
+    {
+        "id": 18,
+        "name": "Black Gram (Urad)",
+        "season": "Kharif",
+        "suitableStates": [
+            "Madhya Pradesh",
+            "Maharashtra",
+            "Andhra Pradesh",
+            "Rajasthan"
+        ],
+        "soilTypes": [
+            "Black",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (20:40:20 kg/ha)",
+            "topDressing": "SSP"
+        },
+        "commonPests": [
+            {
+                "name": "Yellow Mosaic",
+                "solution": "Imidacloprid"
+            }
+        ],
+        "expectedYield": "1-1.8 tons per hectare",
+        "avgMarketPricePerQuintal": 6500
+    },
+    {
+        "id": 19,
+        "name": "Green Gram (Moong)",
+        "season": "Kharif",
+        "suitableStates": [
+            "Rajasthan",
+            "Maharashtra",
+            "Punjab",
+            "Haryana"
+        ],
+        "soilTypes": [
+            "Loamy",
+            "Sandy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (20:40:20 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Pod Borer",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "1-1.5 tons per hectare",
+        "avgMarketPricePerQuintal": 7000
+    },
+    {
+        "id": 20,
+        "name": "Sesame",
+        "season": "Kharif",
+        "suitableStates": [
+            "Rajasthan",
+            "Gujarat",
+            "Madhya Pradesh",
+            "Maharashtra"
+        ],
+        "soilTypes": [
+            "Sandy loam",
+            "Red"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (40:20:20 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Leaf Roller",
+                "solution": "Quinalphos"
+            }
+        ],
+        "expectedYield": "0.8-1.5 tons per hectare",
+        "avgMarketPricePerQuintal": 8500
+    },
+    {
+        "id": 21,
+        "name": "Jute",
+        "season": "Kharif",
+        "suitableStates": [
+            "West Bengal",
+            "Assam",
+            "Bihar",
+            "Odisha"
+        ],
+        "soilTypes": [
+            "Alluvial"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "March",
+            "April"
+        ],
+        "harvestingMonths": [
+            "July",
+            "August"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (60:30:30 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Stem Weevil",
+                "solution": "Chlorpyrifos"
+            }
+        ],
+        "expectedYield": "2-3 tons per hectare",
+        "avgMarketPricePerQuintal": 4800
+    },
+    {
+        "id": 22,
+        "name": "Sunflower",
+        "season": "Kharif",
+        "suitableStates": [
+            "Karnataka",
+            "Andhra Pradesh",
+            "Maharashtra",
+            "Tamil Nadu"
+        ],
+        "soilTypes": [
+            "Black",
+            "Red"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (60:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Head Borer",
+                "solution": "Endosulfan (banned - use alternate)"
+            }
+        ],
+        "expectedYield": "1.5-2.5 tons per hectare",
+        "avgMarketPricePerQuintal": 5200
+    },
+    {
+        "id": 23,
+        "name": "Chilli",
+        "season": "Kharif",
+        "suitableStates": [
+            "Andhra Pradesh",
+            "Telangana",
+            "Karnataka",
+            "Maharashtra"
+        ],
+        "soilTypes": [
+            "Red",
+            "Black"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "May",
+            "June"
+        ],
+        "harvestingMonths": [
+            "September",
+            "December"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:60:60 kg/ha)",
+            "topDressing": "Urea + MOP"
+        },
+        "commonPests": [
+            {
+                "name": "Thrips",
+                "solution": "Spinosad"
+            }
+        ],
+        "expectedYield": "1.5-3 tons per hectare",
+        "avgMarketPricePerQuintal": 8000
+    },
+    {
+        "id": 24,
+        "name": "Turmeric",
+        "season": "Kharif",
+        "suitableStates": [
+            "Tamil Nadu",
+            "Andhra Pradesh",
+            "Maharashtra",
+            "Karnataka"
+        ],
+        "soilTypes": [
+            "Loamy",
+            "Laterite"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "May",
+            "June"
+        ],
+        "harvestingMonths": [
+            "January",
+            "February"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:60:80 kg/ha)",
+            "topDressing": "FYM + Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Rhizome Rot",
+                "solution": "Trichoderma"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 6500
+    },
+    {
+        "id": 25,
+        "name": "Ginger",
+        "season": "Kharif",
+        "suitableStates": [
+            "Kerala",
+            "Meghalaya",
+            "Sikkim",
+            "Assam"
+        ],
+        "soilTypes": [
+            "Laterite",
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "May",
+            "June"
+        ],
+        "harvestingMonths": [
+            "January",
+            "February"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:60:80 kg/ha)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Rhizome Rot",
+                "solution": "Trichoderma + neem cake"
+            }
+        ],
+        "expectedYield": "15-25 tons per hectare",
+        "avgMarketPricePerQuintal": 12000
+    },
+    {
+        "id": 26,
+        "name": "Tomato",
+        "season": "Kharif",
+        "suitableStates": [
+            "Maharashtra",
+            "Karnataka",
+            "Andhra Pradesh",
+            "Gujarat"
+        ],
+        "soilTypes": [
+            "Loamy",
+            "Sandy loam"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "November"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (120:80:80 kg/ha)",
+            "topDressing": "Urea + Boron"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit Borer",
+                "solution": "Spinosad"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 3500
+    },
+    {
+        "id": 27,
+        "name": "Onion",
+        "season": "Rabi",
+        "suitableStates": [
+            "Maharashtra",
+            "Gujarat",
+            "Rajasthan",
+            "Uttar Pradesh"
+        ],
+        "soilTypes": [
+            "Black",
+            "Sandy loam"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "February",
+            "March"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:50:50 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Thrips",
+                "solution": "Imidacloprid"
+            }
+        ],
+        "expectedYield": "15-25 tons per hectare",
+        "avgMarketPricePerQuintal": 2800
+    },
+    {
+        "id": 28,
+        "name": "Garlic",
+        "season": "Rabi",
+        "suitableStates": [
+            "Madhya Pradesh",
+            "Gujarat",
+            "Rajasthan",
+            "Uttar Pradesh"
+        ],
+        "soilTypes": [
+            "Loamy",
+            "Sandy loam"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "February",
+            "March"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Sulphur"
+        },
+        "commonPests": [
+            {
+                "name": "Thrips",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "8-12 tons per hectare",
+        "avgMarketPricePerQuintal": 6500
+    },
+    {
+        "id": 29,
+        "name": "Mango",
+        "season": "Perennial",
+        "suitableStates": [
+            "Maharashtra",
+            "Andhra Pradesh",
+            "Uttar Pradesh",
+            "Gujarat"
+        ],
+        "soilTypes": [
+            "Alluvial",
+            "Black"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July (grafting)"
+        ],
+        "harvestingMonths": [
+            "April",
+            "June"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (500:250:500 g/tree)",
+            "topDressing": "FYM annually"
+        },
+        "commonPests": [
+            {
+                "name": "Mango Hopper",
+                "solution": "Imidacloprid"
+            }
+        ],
+        "expectedYield": "8-15 tons per hectare",
+        "avgMarketPricePerQuintal": 4500
+    },
+    {
+        "id": 30,
+        "name": "Banana",
+        "season": "Perennial",
+        "suitableStates": [
+            "Tamil Nadu",
+            "Maharashtra",
+            "Gujarat",
+            "Karnataka"
+        ],
+        "soilTypes": [
+            "Alluvial",
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "12-15 months after planting"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (200:80:300 g/plant)",
+            "topDressing": "Split doses"
+        },
+        "commonPests": [
+            {
+                "name": "Pseudostem Weevil",
+                "solution": "Chlorpyrifos"
+            }
+        ],
+        "expectedYield": "40-60 tons per hectare",
+        "avgMarketPricePerQuintal": 1800
+    },
+    {
+        "id": 31,
+        "name": "Coconut",
+        "season": "Perennial",
+        "suitableStates": [
+            "Kerala",
+            "Tamil Nadu",
+            "Karnataka",
+            "Andhra Pradesh"
+        ],
+        "soilTypes": [
+            "Laterite",
+            "Sandy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "May",
+            "June"
+        ],
+        "harvestingMonths": [
+            "Year-round after 5-6 yrs"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (500:250:1000 g/palm)",
+            "topDressing": "Organic manure"
+        },
+        "commonPests": [
+            {
+                "name": "Rhinoceros Beetle",
+                "solution": "Metarhizium fungus"
+            }
+        ],
+        "expectedYield": "80-120 nuts per palm",
+        "avgMarketPricePerQuintal": 2500
+    },
+    {
+        "id": 32,
+        "name": "Tea",
+        "season": "Perennial",
+        "suitableStates": [
+            "Assam",
+            "West Bengal",
+            "Tamil Nadu",
+            "Kerala"
+        ],
+        "soilTypes": [
+            "Acidic",
+            "Laterite"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "Year-round"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:30:60 kg/ha)",
+            "topDressing": "Nitrogen frequent"
+        },
+        "commonPests": [
+            {
+                "name": "Tea Mosquito Bug",
+                "solution": "Quinalphos"
+            }
+        ],
+        "expectedYield": "2-3 tons per hectare",
+        "avgMarketPricePerQuintal": 45000
+    },
+    {
+        "id": 33,
+        "name": "Coffee",
+        "season": "Perennial",
+        "suitableStates": [
+            "Karnataka",
+            "Kerala",
+            "Tamil Nadu"
+        ],
+        "soilTypes": [
+            "Laterite",
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "November",
+            "February"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:80 kg/ha)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "White Stem Borer",
+                "solution": "Chlorpyrifos"
+            }
+        ],
+        "expectedYield": "1-2 tons per hectare",
+        "avgMarketPricePerQuintal": 12000
+    },
+    {
+        "id": 34,
+        "name": "Rubber",
+        "season": "Perennial",
+        "suitableStates": [
+            "Kerala",
+            "Tamil Nadu",
+            "Tripura"
+        ],
+        "soilTypes": [
+            "Laterite",
+            "Alluvial"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "After 6-7 yrs, year-round"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:80 kg/ha)",
+            "topDressing": "Organic"
+        },
+        "commonPests": [
+            {
+                "name": "Scale Insects",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "1.5-2 tons latex per hectare",
+        "avgMarketPricePerQuintal": 18000
+    },
+    {
+        "id": 35,
+        "name": "Watermelon",
+        "season": "Zaid",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Maharashtra",
+            "Gujarat",
+            "Rajasthan"
+        ],
+        "soilTypes": [
+            "Sandy loam"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "February",
+            "March"
+        ],
+        "harvestingMonths": [
+            "May",
+            "June"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:60:80 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit Fly",
+                "solution": "Spinosad"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 1500
+    },
+    {
+        "id": 36,
+        "name": "Cucumber",
+        "season": "Zaid",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Bihar",
+            "West Bengal",
+            "Maharashtra"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "February",
+            "March"
+        ],
+        "harvestingMonths": [
+            "May",
+            "June"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:60 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit Fly",
+                "solution": "Pheromone trap"
+            }
+        ],
+        "expectedYield": "15-25 tons per hectare",
+        "avgMarketPricePerQuintal": 1200
+    },
+    {
+        "id": 37,
+        "name": "Okra (Ladyfinger)",
+        "season": "Kharif",
+        "suitableStates": [
+            "Gujarat",
+            "Maharashtra",
+            "Andhra Pradesh",
+            "Uttar Pradesh"
+        ],
+        "soilTypes": [
+            "Sandy loam",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "August",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (60:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit Borer",
+                "solution": "Spinosad"
+            }
+        ],
+        "expectedYield": "8-12 tons per hectare",
+        "avgMarketPricePerQuintal": 4000
+    },
+    {
+        "id": 38,
+        "name": "Brinjal (Eggplant)",
+        "season": "Kharif",
+        "suitableStates": [
+            "West Bengal",
+            "Maharashtra",
+            "Gujarat",
+            "Karnataka"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "December"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:60:60 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit & Shoot Borer",
+                "solution": "Neem oil + Spinosad"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 3500
+    },
+    {
+        "id": 39,
+        "name": "Cabbage",
+        "season": "Rabi",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "West Bengal",
+            "Punjab",
+            "Himachal Pradesh"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "September",
+            "October"
+        ],
+        "harvestingMonths": [
+            "January",
+            "February"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (120:60:60 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Diamond Back Moth",
+                "solution": "Bt kurstaki"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 1800
+    },
+    {
+        "id": 40,
+        "name": "Cauliflower",
+        "season": "Rabi",
+        "suitableStates": [
+            "Punjab",
+            "Haryana",
+            "Uttar Pradesh",
+            "Bihar"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "September",
+            "October"
+        ],
+        "harvestingMonths": [
+            "December",
+            "January"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (120:60:60 kg/ha)",
+            "topDressing": "Boron"
+        },
+        "commonPests": [
+            {
+                "name": "Cabbage Looper",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "18-25 tons per hectare",
+        "avgMarketPricePerQuintal": 2200
+    },
+    {
+        "id": 41,
+        "name": "Carrot",
+        "season": "Rabi",
+        "suitableStates": [
+            "Punjab",
+            "Haryana",
+            "Uttar Pradesh",
+            "Gujarat"
+        ],
+        "soilTypes": [
+            "Sandy loam"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "January",
+            "February"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:60 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Root Knot Nematode",
+                "solution": "Neem cake"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 2500
+    },
+    {
+        "id": 42,
+        "name": "Safflower",
+        "season": "Rabi",
+        "suitableStates": [
+            "Maharashtra",
+            "Karnataka",
+            "Madhya Pradesh"
+        ],
+        "soilTypes": [
+            "Black"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "March",
+            "April"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (40:40:20 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Imidacloprid"
+            }
+        ],
+        "expectedYield": "1-1.5 tons per hectare",
+        "avgMarketPricePerQuintal": 6540
+    },
+    {
+        "id": 43,
+        "name": "Nigerseed",
+        "season": "Kharif",
+        "suitableStates": [
+            "Madhya Pradesh",
+            "Odisha",
+            "Chhattisgarh"
+        ],
+        "soilTypes": [
+            "Red",
+            "Laterite"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (40:20:20 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Leaf Caterpillar",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "0.5-1 ton per hectare",
+        "avgMarketPricePerQuintal": 8000
+    },
+    {
+        "id": 44,
+        "name": "Linseed",
+        "season": "Rabi",
+        "suitableStates": [
+            "Madhya Pradesh",
+            "Uttar Pradesh",
+            "Rajasthan"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "March",
+            "April"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (60:30:30 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Rust",
+                "solution": "Mancozeb"
+            }
+        ],
+        "expectedYield": "1-2 tons per hectare",
+        "avgMarketPricePerQuintal": 5500
+    },
+    {
+        "id": 45,
+        "name": "Castor",
+        "season": "Kharif",
+        "suitableStates": [
+            "Gujarat",
+            "Rajasthan",
+            "Andhra Pradesh"
+        ],
+        "soilTypes": [
+            "Sandy loam",
+            "Black"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "October",
+            "November"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Semi-looper",
+                "solution": "Spinosad"
+            }
+        ],
+        "expectedYield": "1.5-2.5 tons per hectare",
+        "avgMarketPricePerQuintal": 4800
+    },
+    {
+        "id": 46,
+        "name": "Tobacco",
+        "season": "Kharif",
+        "suitableStates": [
+            "Andhra Pradesh",
+            "Gujarat",
+            "Karnataka"
+        ],
+        "soilTypes": [
+            "Sandy loam"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "October",
+            "November"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:50:100 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Tobacco Caterpillar",
+                "solution": "Chlorantraniliprole"
+            }
+        ],
+        "expectedYield": "2-3 tons per hectare",
+        "avgMarketPricePerQuintal": 6500
+    },
+    {
+        "id": 47,
+        "name": "Coriander",
+        "season": "Rabi",
+        "suitableStates": [
+            "Rajasthan",
+            "Gujarat",
+            "Madhya Pradesh"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "February",
+            "March"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (40:20:20 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "1-1.5 tons per hectare",
+        "avgMarketPricePerQuintal": 8000
+    },
+    {
+        "id": 48,
+        "name": "Cumin",
+        "season": "Rabi",
+        "suitableStates": [
+            "Rajasthan",
+            "Gujarat",
+            "Madhya Pradesh"
+        ],
+        "soilTypes": [
+            "Sandy loam"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "February",
+            "March"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (40:20:20 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Imidacloprid"
+            }
+        ],
+        "expectedYield": "0.8-1.2 tons per hectare",
+        "avgMarketPricePerQuintal": 18000
+    },
+    {
+        "id": 49,
+        "name": "Fenugreek",
+        "season": "Rabi",
+        "suitableStates": [
+            "Rajasthan",
+            "Gujarat",
+            "Madhya Pradesh"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "February",
+            "March"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (40:30:20 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "1.5-2 tons per hectare",
+        "avgMarketPricePerQuintal": 6500
+    },
+    {
+        "id": 50,
+        "name": "Papaya",
+        "season": "Perennial",
+        "suitableStates": [
+            "Andhra Pradesh",
+            "Maharashtra",
+            "Gujarat",
+            "Karnataka"
+        ],
+        "soilTypes": [
+            "Sandy loam"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "10-12 months"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (200:200:250 g/plant)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Papaya Ringspot",
+                "solution": "Roguing + vector control"
+            }
+        ],
+        "expectedYield": "40-60 tons per hectare",
+        "avgMarketPricePerQuintal": 2500
+    },
+    {
+        "id": 51,
+        "name": "Guava",
+        "season": "Perennial",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Maharashtra",
+            "Gujarat",
+            "Bihar"
+        ],
+        "soilTypes": [
+            "Alluvial",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "Year-round peaks"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (500:250:250 g/tree)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit Fly",
+                "solution": "Pheromone traps"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 4000
+    },
+    {
+        "id": 52,
+        "name": "Apple",
+        "season": "Perennial",
+        "suitableStates": [
+            "Jammu & Kashmir",
+            "Himachal Pradesh",
+            "Uttarakhand"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "January",
+            "February (grafting)"
+        ],
+        "harvestingMonths": [
+            "August",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (500:250:500 g/tree)",
+            "topDressing": "Urea split"
+        },
+        "commonPests": [
+            {
+                "name": "Codling Moth",
+                "solution": "Chlorpyrifos"
+            }
+        ],
+        "expectedYield": "15-25 tons per hectare",
+        "avgMarketPricePerQuintal": 8000
+    },
+    {
+        "id": 53,
+        "name": "Orange (Citrus)",
+        "season": "Perennial",
+        "suitableStates": [
+            "Maharashtra",
+            "Rajasthan",
+            "Gujarat",
+            "Madhya Pradesh"
+        ],
+        "soilTypes": [
+            "Black",
+            "Sandy loam"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "November",
+            "February"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (500:250:500 g/tree)",
+            "topDressing": "Zinc sulphate"
+        },
+        "commonPests": [
+            {
+                "name": "Citrus Psylla",
+                "solution": "Imidacloprid"
+            }
+        ],
+        "expectedYield": "15-25 tons per hectare",
+        "avgMarketPricePerQuintal": 4500
+    },
+    {
+        "id": 54,
+        "name": "Pineapple",
+        "season": "Perennial",
+        "suitableStates": [
+            "Assam",
+            "Meghalaya",
+            "West Bengal",
+            "Kerala"
+        ],
+        "soilTypes": [
+            "Laterite",
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "12-18 months"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (200:100:200 g/plant)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Mealy Bug",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "30-50 tons per hectare",
+        "avgMarketPricePerQuintal": 3000
+    },
+    {
+        "id": 55,
+        "name": "Cashew",
+        "season": "Perennial",
+        "suitableStates": [
+            "Maharashtra",
+            "Kerala",
+            "Andhra Pradesh",
+            "Tamil Nadu"
+        ],
+        "soilTypes": [
+            "Laterite",
+            "Sandy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "February",
+            "May"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (500:250:250 g/tree)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Tea Mosquito",
+                "solution": "Quinalphos"
+            }
+        ],
+        "expectedYield": "0.8-1.5 tons nuts per hectare",
+        "avgMarketPricePerQuintal": 12000
+    },
+    {
+        "id": 56,
+        "name": "Aonla (Indian Gooseberry)",
+        "season": "Perennial",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Maharashtra",
+            "Gujarat",
+            "Rajasthan"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "November",
+            "January"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (500:250:500 g/tree)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Aonla Aphid",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "15-25 tons per hectare",
+        "avgMarketPricePerQuintal": 5000
+    },
+    {
+        "id": 57,
+        "name": "Horse Gram",
+        "season": "Kharif",
+        "suitableStates": [
+            "Karnataka",
+            "Tamil Nadu",
+            "Andhra Pradesh"
+        ],
+        "soilTypes": [
+            "Red",
+            "Laterite"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (20:40:20 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Pod Borer",
+                "solution": "Spinosad"
+            }
+        ],
+        "expectedYield": "0.8-1.5 tons per hectare",
+        "avgMarketPricePerQuintal": 5500
+    },
+    {
+        "id": 58,
+        "name": "Cowpea",
+        "season": "Kharif",
+        "suitableStates": [
+            "Gujarat",
+            "Maharashtra",
+            "Rajasthan"
+        ],
+        "soilTypes": [
+            "Sandy loam"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "August",
+            "September"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (20:40:20 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Imidacloprid"
+            }
+        ],
+        "expectedYield": "1-2 tons per hectare",
+        "avgMarketPricePerQuintal": 6000
+    },
+    {
+        "id": 59,
+        "name": "Sweet Potato",
+        "season": "Kharif",
+        "suitableStates": [
+            "Odisha",
+            "West Bengal",
+            "Bihar",
+            "Uttar Pradesh"
+        ],
+        "soilTypes": [
+            "Sandy loam"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (60:80:80 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Weevil",
+                "solution": "Chlorpyrifos"
+            }
+        ],
+        "expectedYield": "15-25 tons per hectare",
+        "avgMarketPricePerQuintal": 2500
+    },
+    {
+        "id": 60,
+        "name": "Tapioca (Cassava)",
+        "season": "Kharif",
+        "suitableStates": [
+            "Kerala",
+            "Tamil Nadu",
+            "Andhra Pradesh"
+        ],
+        "soilTypes": [
+            "Laterite",
+            "Sandy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "May",
+            "June"
+        ],
+        "harvestingMonths": [
+            "9-12 months"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:50:100 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Whitefly",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "20-35 tons per hectare",
+        "avgMarketPricePerQuintal": 1800
+    },
+    {
+        "id": 61,
+        "name": "Bitter Gourd",
+        "season": "Kharif",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Maharashtra",
+            "Gujarat"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "August",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit Fly",
+                "solution": "Pheromone trap"
+            }
+        ],
+        "expectedYield": "10-15 tons per hectare",
+        "avgMarketPricePerQuintal": 3000
+    },
+    {
+        "id": 62,
+        "name": "Bottle Gourd",
+        "season": "Kharif",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Bihar",
+            "West Bengal"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "August",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit Fly",
+                "solution": "Spinosad"
+            }
+        ],
+        "expectedYield": "15-25 tons per hectare",
+        "avgMarketPricePerQuintal": 1800
+    },
+    {
+        "id": 63,
+        "name": "Pumpkin",
+        "season": "Kharif",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Maharashtra",
+            "Gujarat"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:60:80 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit Fly",
+                "solution": "Pheromone trap"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 1500
+    },
+    {
+        "id": 64,
+        "name": "Drumstick",
+        "season": "Perennial",
+        "suitableStates": [
+            "Tamil Nadu",
+            "Andhra Pradesh",
+            "Gujarat",
+            "Rajasthan"
+        ],
+        "soilTypes": [
+            "Sandy loam"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "Year-round"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (200:100:200 g/tree)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Leaf Caterpillar",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "200-300 kg pods/tree",
+        "avgMarketPricePerQuintal": 4000
+    },
+    {
+        "id": 65,
+        "name": "Cardamom",
+        "season": "Perennial",
+        "suitableStates": [
+            "Kerala",
+            "Karnataka",
+            "Tamil Nadu"
+        ],
+        "soilTypes": [
+            "Laterite",
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "Year-round"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:80 kg/ha)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Thrips",
+                "solution": "Imidacloprid"
+            }
+        ],
+        "expectedYield": "0.5-1 ton per hectare",
+        "avgMarketPricePerQuintal": 45000
+    },
+    {
+        "id": 66,
+        "name": "Black Pepper",
+        "season": "Perennial",
+        "suitableStates": [
+            "Kerala",
+            "Karnataka",
+            "Tamil Nadu"
+        ],
+        "soilTypes": [
+            "Laterite"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "December",
+            "January"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:40:140 kg/ha)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Scale Insect",
+                "solution": "Quinalphos"
+            }
+        ],
+        "expectedYield": "0.5-1 ton per hectare",
+        "avgMarketPricePerQuintal": 55000
+    },
+    {
+        "id": 67,
+        "name": "Clove",
+        "season": "Perennial",
+        "suitableStates": [
+            "Kerala",
+            "Tamil Nadu",
+            "Andaman"
+        ],
+        "soilTypes": [
+            "Laterite"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "After 4-5 yrs, year-round"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:120 kg/ha)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Scale Insects",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "0.3-0.8 tons per hectare",
+        "avgMarketPricePerQuintal": 80000
+    },
+    {
+        "id": 68,
+        "name": "Nutmeg",
+        "season": "Perennial",
+        "suitableStates": [
+            "Kerala",
+            "Karnataka"
+        ],
+        "soilTypes": [
+            "Laterite"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "After 7-8 yrs"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:120 kg/ha)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Shoot Borer",
+                "solution": "Chlorpyrifos"
+            }
+        ],
+        "expectedYield": "0.5-1 ton per hectare",
+        "avgMarketPricePerQuintal": 120000
+    },
+    {
+        "id": 69,
+        "name": "Vanilla",
+        "season": "Perennial",
+        "suitableStates": [
+            "Kerala",
+            "Karnataka",
+            "Tamil Nadu"
+        ],
+        "soilTypes": [
+            "Laterite"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "After 3-4 yrs"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (60:30:100 kg/ha)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Root Rot",
+                "solution": "Trichoderma"
+            }
+        ],
+        "expectedYield": "0.3-0.6 tons per hectare",
+        "avgMarketPricePerQuintal": 150000
+    },
+    {
+        "id": 70,
+        "name": "Betel Vine",
+        "season": "Perennial",
+        "suitableStates": [
+            "West Bengal",
+            "Karnataka",
+            "Maharashtra"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "Year-round"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:50:50 kg/ha)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Betel Vine Bug",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "High leaf yield",
+        "avgMarketPricePerQuintal": 8000
+    },
+    {
+        "id": 71,
+        "name": "Saffron",
+        "season": "Rabi",
+        "suitableStates": [
+            "Jammu & Kashmir",
+            "Himachal Pradesh"
+        ],
+        "soilTypes": [
+            "Sandy loam"
+        ],
+        "waterRequirement": "Low",
+        "sowingMonths": [
+            "July",
+            "August"
+        ],
+        "harvestingMonths": [
+            "October",
+            "November"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Corms Rot",
+                "solution": "Carbendazim"
+            }
+        ],
+        "expectedYield": "3-5 kg stigma per hectare",
+        "avgMarketPricePerQuintal": 600000
+    },
+    {
+        "id": 72,
+        "name": "Radish",
+        "season": "Rabi",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Punjab",
+            "West Bengal"
+        ],
+        "soilTypes": [
+            "Sandy loam"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "September",
+            "October"
+        ],
+        "harvestingMonths": [
+            "November",
+            "December"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Root Fly",
+                "solution": "Neem cake"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 1500
+    },
+    {
+        "id": 73,
+        "name": "Spinach",
+        "season": "Rabi",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "West Bengal",
+            "Punjab"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "September",
+            "October"
+        ],
+        "harvestingMonths": [
+            "November",
+            "December"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (60:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Leaf Miner",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "10-15 tons per hectare",
+        "avgMarketPricePerQuintal": 2000
+    },
+    {
+        "id": 74,
+        "name": "French Bean",
+        "season": "Kharif",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Himachal Pradesh",
+            "Maharashtra"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "August",
+            "September"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:60:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Pod Borer",
+                "solution": "Spinosad"
+            }
+        ],
+        "expectedYield": "8-12 tons per hectare",
+        "avgMarketPricePerQuintal": 3500
+    },
+    {
+        "id": 75,
+        "name": "Snake Gourd",
+        "season": "Kharif",
+        "suitableStates": [
+            "Tamil Nadu",
+            "Andhra Pradesh",
+            "Maharashtra"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "August",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit Fly",
+                "solution": "Pheromone trap"
+            }
+        ],
+        "expectedYield": "12-18 tons per hectare",
+        "avgMarketPricePerQuintal": 2500
+    },
+    {
+        "id": 76,
+        "name": "Ridge Gourd",
+        "season": "Kharif",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Bihar",
+            "Gujarat"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "August",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit Fly",
+                "solution": "Spinosad"
+            }
+        ],
+        "expectedYield": "15-20 tons per hectare",
+        "avgMarketPricePerQuintal": 2200
+    },
+    {
+        "id": 77,
+        "name": "Ash Gourd",
+        "season": "Kharif",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Maharashtra"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "September",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:60:80 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Fruit Fly",
+                "solution": "Pheromone trap"
+            }
+        ],
+        "expectedYield": "25-35 tons per hectare",
+        "avgMarketPricePerQuintal": 1800
+    },
+    {
+        "id": 78,
+        "name": "Elephant Foot Yam",
+        "season": "Kharif",
+        "suitableStates": [
+            "Kerala",
+            "Tamil Nadu",
+            "Odisha"
+        ],
+        "soilTypes": [
+            "Laterite",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "May",
+            "June"
+        ],
+        "harvestingMonths": [
+            "January",
+            "February"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:60:100 kg/ha)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Corm Rot",
+                "solution": "Trichoderma"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 3000
+    },
+    {
+        "id": 79,
+        "name": "Colocasia",
+        "season": "Kharif",
+        "suitableStates": [
+            "Kerala",
+            "Assam",
+            "West Bengal"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "May",
+            "June"
+        ],
+        "harvestingMonths": [
+            "December",
+            "January"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:60:80 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "15-25 tons per hectare",
+        "avgMarketPricePerQuintal": 2500
+    },
+    {
+        "id": 80,
+        "name": "Jackfruit",
+        "season": "Perennial",
+        "suitableStates": [
+            "Kerala",
+            "Tamil Nadu",
+            "Karnataka",
+            "Maharashtra"
+        ],
+        "soilTypes": [
+            "Laterite",
+            "Alluvial"
+        ],
+        "waterRequirement": "High",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "May",
+            "August"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (500:250:500 g/tree)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Jackfruit Borer",
+                "solution": "Chlorpyrifos"
+            }
+        ],
+        "expectedYield": "50-100 fruits per tree",
+        "avgMarketPricePerQuintal": 3000
+    },
+    {
+        "id": 81,
+        "name": "Sapota (Chikoo)",
+        "season": "Perennial",
+        "suitableStates": [
+            "Maharashtra",
+            "Gujarat",
+            "Andhra Pradesh"
+        ],
+        "soilTypes": [
+            "Black",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "Year-round"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (500:250:500 g/tree)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Mealy Bug",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "20-30 tons per hectare",
+        "avgMarketPricePerQuintal": 4500
+    },
+    {
+        "id": 82,
+        "name": "Curry Leaf",
+        "season": "Perennial",
+        "suitableStates": [
+            "Tamil Nadu",
+            "Andhra Pradesh",
+            "Karnataka"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "Year-round"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:50:50 g/plant)",
+            "topDressing": "FYM"
+        },
+        "commonPests": [
+            {
+                "name": "Leaf Miner",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "High leaf yield",
+        "avgMarketPricePerQuintal": 8000
+    },
+    {
+        "id": 83,
+        "name": "Marigold",
+        "season": "Kharif",
+        "suitableStates": [
+            "Uttar Pradesh",
+            "Maharashtra",
+            "Gujarat"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "August",
+            "October"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Thrips",
+                "solution": "Imidacloprid"
+            }
+        ],
+        "expectedYield": "8-12 tons per hectare",
+        "avgMarketPricePerQuintal": 2500
+    },
+    {
+        "id": 84,
+        "name": "Rose (Flower crop)",
+        "season": "Perennial",
+        "suitableStates": [
+            "Maharashtra",
+            "Karnataka",
+            "Uttar Pradesh"
+        ],
+        "soilTypes": [
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "June",
+            "July"
+        ],
+        "harvestingMonths": [
+            "Year-round"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (100:60:60 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Neem oil"
+            }
+        ],
+        "expectedYield": "High flower yield",
+        "avgMarketPricePerQuintal": 15000
+    },
+    {
+        "id": 85,
+        "name": "Poppy (Opium)",
+        "season": "Rabi",
+        "suitableStates": [
+            "Madhya Pradesh",
+            "Rajasthan",
+            "Uttar Pradesh"
+        ],
+        "soilTypes": [
+            "Black",
+            "Loamy"
+        ],
+        "waterRequirement": "Medium",
+        "sowingMonths": [
+            "October",
+            "November"
+        ],
+        "harvestingMonths": [
+            "March",
+            "April"
+        ],
+        "fertilizerSchedule": {
+            "baseFertilizer": "NPK (80:40:40 kg/ha)",
+            "topDressing": "Urea"
+        },
+        "commonPests": [
+            {
+                "name": "Aphids",
+                "solution": "Imidacloprid"
+            }
+        ],
+        "expectedYield": "0.5-1 ton latex per hectare",
+        "avgMarketPricePerQuintal": 45000
+    }
+]

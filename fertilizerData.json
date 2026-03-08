@@ -1,0 +1,522 @@
+[
+  {
+    "id": 1,
+    "name": "Urea",
+    "nutrients": "46% Nitrogen",
+    "suitableCrops": ["Wheat", "Rice", "Maize"],
+    "pricePerBag": 270,
+    "seller": "AgroMart Traders",
+    "location": "Ahmedabad",
+    "contact": "9876543210"
+  },
+  {
+    "id": 2,
+    "name": "DAP",
+    "nutrients": "18% Nitrogen, 46% Phosphorus",
+    "suitableCrops": ["Rice", "Cotton"],
+    "pricePerBag": 1350,
+    "seller": "Kisan Supply Store",
+    "location": "Surat",
+    "contact": "9123456789"
+  },
+  {
+    "id": 3,
+    "name": "MOP (Muriate of Potash)",
+    "nutrients": "60% K2O",
+    "suitableCrops": ["Potato", "Banana", "Sugarcane", "Tomato", "Mango"],
+    "pricePerBag": 1700,
+    "seller": "Gujarat Potash Depot",
+    "location": "Ahmedabad",
+    "contact": "9876543221"
+  },
+  {
+    "id": 4,
+    "name": "SSP (Single Super Phosphate)",
+    "nutrients": "16% P2O5 + 11% Sulphur",
+    "suitableCrops": ["Groundnut", "Soybean", "Wheat", "Maize", "Chickpea"],
+    "pricePerBag": 500,
+    "seller": "Krishi Phosphates",
+    "location": "Surat",
+    "contact": "9123456790"
+  },
+  {
+    "id": 5,
+    "name": "NPK 10-26-26",
+    "nutrients": "10% N, 26% P2O5, 26% K2O",
+    "suitableCrops": ["Rice", "Wheat", "Maize", "Cotton"],
+    "pricePerBag": 1720,
+    "seller": "IFFCO Gujarat Distributor",
+    "location": "Vadodara",
+    "contact": "9988776655"
+  },
+  {
+    "id": 6,
+    "name": "NPK 12-32-16",
+    "nutrients": "12% N, 32% P2O5, 16% K2O",
+    "suitableCrops": ["Cotton", "Sugarcane", "Groundnut", "Soybean"],
+    "pricePerBag": 1720,
+    "seller": "Coromandel Agri Store",
+    "location": "Rajkot",
+    "contact": "9876543232"
+  },
+  {
+    "id": 7,
+    "name": "NPS 20-20-0-13",
+    "nutrients": "20% N, 20% P2O5 + 13% S",
+    "suitableCrops": ["Wheat", "Rice", "Maize", "Barley"],
+    "pricePerBag": 1300,
+    "seller": "Anand Fertilizer Mart",
+    "location": "Anand",
+    "contact": "9765432109"
+  },
+  {
+    "id": 8,
+    "name": "Ammonium Sulphate",
+    "nutrients": "21% N + 24% S",
+    "suitableCrops": ["Rice", "Tea", "Sugarcane", "Garlic"],
+    "pricePerBag": 650,
+    "seller": "Bharuch Kisan Bhandar",
+    "location": "Bharuch",
+    "contact": "9123456801"
+  },
+  {
+    "id": 9,
+    "name": "CAN (Calcium Ammonium Nitrate)",
+    "nutrients": "26% Nitrogen",
+    "suitableCrops": ["Wheat", "Barley", "Potato", "Onion"],
+    "pricePerBag": 680,
+    "seller": "Vadodara Krishi Kendra",
+    "location": "Vadodara",
+    "contact": "9876543243"
+  },
+  {
+    "id": 10,
+    "name": "Zinc Sulphate 21%",
+    "nutrients": "21% Zn + Sulphur",
+    "suitableCrops": ["Rice", "Wheat", "Maize", "Citrus", "Mango"],
+    "pricePerBag": 1250,
+    "seller": "Gandhinagar Micronutrient Hub",
+    "location": "Gandhinagar",
+    "contact": "9988776644"
+  },
+  {
+    "id": 11,
+    "name": "Gypsum",
+    "nutrients": "23% Calcium + 18% Sulphur",
+    "suitableCrops": ["Groundnut", "Soybean", "Garlic", "Onion"],
+    "pricePerBag": 350,
+    "seller": "Rajkot Soil Conditioner",
+    "location": "Rajkot",
+    "contact": "9765432110"
+  },
+  {
+    "id": 12,
+    "name": "Borax (Boron Fertilizer)",
+    "nutrients": "11% Boron",
+    "suitableCrops": ["Mango", "Cauliflower", "Tomato", "Papaya"],
+    "pricePerBag": 1450,
+    "seller": "Surat Micro Nutrients",
+    "location": "Surat",
+    "contact": "9123456812"
+  },
+  {
+    "id": 13,
+    "name": "Ferrous Sulphate",
+    "nutrients": "19% Iron",
+    "suitableCrops": ["Rice", "Groundnut", "Sugarcane", "Banana"],
+    "pricePerBag": 750,
+    "seller": "Ahmedabad Green Fields",
+    "location": "Ahmedabad",
+    "contact": "9876543254"
+  },
+  {
+    "id": 14,
+    "name": "Magnesium Sulphate (Epsom Salt)",
+    "nutrients": "9.8% Mg + 13% S",
+    "suitableCrops": ["Potato", "Banana", "Ginger", "Turmeric"],
+    "pricePerBag": 820,
+    "seller": "IFFCO Outlet",
+    "location": "Ahmedabad",
+    "contact": "9988776633"
+  },
+  {
+    "id": 15,
+    "name": "Potassium Sulphate (SOP)",
+    "nutrients": "50% K2O + 18% S",
+    "suitableCrops": ["Tobacco", "Potato", "Tomato", "Chilli"],
+    "pricePerBag": 1950,
+    "seller": "Premium Potash Store",
+    "location": "Vadodara",
+    "contact": "9765432121"
+  },
+  {
+    "id": 16,
+    "name": "Vermicompost",
+    "nutrients": "Organic NPK 1.5:0.8:1.2 + Microbes",
+    "suitableCrops": ["All Vegetables", "Fruits", "Flowers"],
+    "pricePerBag": 420,
+    "seller": "Organic Farm Supply",
+    "location": "Surat",
+    "contact": "9123456823"
+  },
+  {
+    "id": 17,
+    "name": "City Compost",
+    "nutrients": "Organic Matter 25% + NPK",
+    "suitableCrops": ["Wheat", "Rice", "Vegetables"],
+    "pricePerBag": 280,
+    "seller": "Ahmedabad Municipal Agri",
+    "location": "Ahmedabad",
+    "contact": "9876543265"
+  },
+  {
+    "id": 18,
+    "name": "Neem Coated Urea",
+    "nutrients": "46% Nitrogen (slow release)",
+    "suitableCrops": ["Wheat", "Rice", "Maize", "Cotton"],
+    "pricePerBag": 285,
+    "seller": "Neem Agro Mart",
+    "location": "Rajkot",
+    "contact": "9988776622"
+  },
+  {
+    "id": 19,
+    "name": "Rhizobium Biofertilizer",
+    "nutrients": "N-fixing bacteria for legumes",
+    "suitableCrops": ["Chickpea", "Pigeon Pea", "Soybean", "Groundnut"],
+    "pricePerBag": 220,
+    "seller": "BioKisan Gujarat",
+    "location": "Anand",
+    "contact": "9765432132"
+  },
+  {
+    "id": 20,
+    "name": "PSB (Phosphate Solubilizing Bacteria)",
+    "nutrients": "Phosphorus mobilizer",
+    "suitableCrops": ["All crops", "Pulses", "Oilseeds"],
+    "pricePerBag": 230,
+    "seller": "Bio Inputs Store",
+    "location": "Bharuch",
+    "contact": "9123456834"
+  },
+  {
+    "id": 21,
+    "name": "Azotobacter Biofertilizer",
+    "nutrients": "Free-living Nitrogen fixer",
+    "suitableCrops": ["Wheat", "Maize", "Vegetables", "Sugarcane"],
+    "pricePerBag": 210,
+    "seller": "Vadodara Bio Hub",
+    "location": "Vadodara",
+    "contact": "9876543276"
+  },
+  {
+    "id": 22,
+    "name": "Mycorrhiza Biofertilizer",
+    "nutrients": "Root enhancer + Phosphorus",
+    "suitableCrops": ["All crops", "Fruits", "Vegetables"],
+    "pricePerBag": 350,
+    "seller": "RootBoost Fertilizers",
+    "location": "Ahmedabad",
+    "contact": "9988776611"
+  },
+  {
+    "id": 23,
+    "name": "NPK 15-15-15",
+    "nutrients": "15% N, 15% P2O5, 15% K2O",
+    "suitableCrops": ["Banana", "Mango", "Potato", "Tomato"],
+    "pricePerBag": 1250,
+    "seller": "Balanced Nutrient Mart",
+    "location": "Surat",
+    "contact": "9765432143"
+  },
+  {
+    "id": 24,
+    "name": "NPK 16-16-16",
+    "nutrients": "16% each NPK",
+    "suitableCrops": ["Potato", "Onion", "Garlic", "Cabbage"],
+    "pricePerBag": 1350,
+    "seller": "Gujarat Complex Fertilizer",
+    "location": "Gandhinagar",
+    "contact": "9123456845"
+  },
+  {
+    "id": 25,
+    "name": "NP 28-28-0",
+    "nutrients": "28% N, 28% P2O5",
+    "suitableCrops": ["Rice", "Wheat", "Maize"],
+    "pricePerBag": 1750,
+    "seller": "High Phosphate Store",
+    "location": "Rajkot",
+    "contact": "9876543287"
+  },
+  {
+    "id": 26,
+    "name": "NPK 20-20-20 (Water Soluble)",
+    "nutrients": "20% each NPK",
+    "suitableCrops": ["Horticulture", "Tomato", "Chilli", "Flowers"],
+    "pricePerBag": 1800,
+    "seller": "Foliar Specialist",
+    "location": "Ahmedabad",
+    "contact": "9988776600"
+  },
+  {
+    "id": 27,
+    "name": "Rock Phosphate",
+    "nutrients": "18-20% P2O5 (slow release)",
+    "suitableCrops": ["Long-term crops", "Pulses", "Oilseeds"],
+    "pricePerBag": 550,
+    "seller": "Natural Phosphate Depot",
+    "location": "Vadodara",
+    "contact": "9765432154"
+  },
+  {
+    "id": 28,
+    "name": "Elemental Sulphur 90% WDG",
+    "nutrients": "90% Sulphur",
+    "suitableCrops": ["Oilseeds", "Garlic", "Onion", "Groundnut"],
+    "pricePerBag": 920,
+    "seller": "Sulphur Specialist",
+    "location": "Anand",
+    "contact": "9123456856"
+  },
+  {
+    "id": 29,
+    "name": "Calcium Nitrate",
+    "nutrients": "15.5% N + 26% Ca",
+    "suitableCrops": ["Tomato", "Cauliflower", "Apple", "Mango"],
+    "pricePerBag": 1450,
+    "seller": "Calcium Boost Store",
+    "location": "Surat",
+    "contact": "9876543298"
+  },
+  {
+    "id": 30,
+    "name": "Mono Potassium Phosphate (MKP)",
+    "nutrients": "0-52-34 (Water soluble)",
+    "suitableCrops": ["Flowering stage crops", "Fruits", "Vegetables"],
+    "pricePerBag": 2100,
+    "seller": "Premium Water Soluble",
+    "location": "Ahmedabad",
+    "contact": "9988776599"
+  },
+  {
+    "id": 31,
+    "name": "Humic Acid Granules",
+    "nutrients": "Humic + Fulvic acid",
+    "suitableCrops": ["All crops", "Soil health"],
+    "pricePerBag": 650,
+    "seller": "Soil Health Gujarat",
+    "location": "Bharuch",
+    "contact": "9765432165"
+  },
+  {
+    "id": 32,
+    "name": "Seaweed Extract",
+    "nutrients": "Organic growth promoter",
+    "suitableCrops": ["All crops", "Fruits", "Vegetables"],
+    "pricePerBag": 850,
+    "seller": "SeaGrow Fertilizers",
+    "location": "Rajkot",
+    "contact": "9123456867"
+  },
+  {
+    "id": 33,
+    "name": "Amino Acid Liquid",
+    "nutrients": "Plant growth promoter",
+    "suitableCrops": ["Horticulture", "Crops under stress"],
+    "pricePerBag": 950,
+    "seller": "Amino Boost Store",
+    "location": "Vadodara",
+    "contact": "9876543309"
+  },
+  {
+    "id": 34,
+    "name": "Multi Micronutrient Mixture",
+    "nutrients": "Zn, Fe, Mn, Cu, B, Mo",
+    "suitableCrops": ["All crops"],
+    "pricePerBag": 1100,
+    "seller": "Micro Mix Gujarat",
+    "location": "Ahmedabad",
+    "contact": "9988776588"
+  },
+  {
+    "id": 35,
+    "name": "Chelated Zinc EDTA",
+    "nutrients": "12% Zn (chelated)",
+    "suitableCrops": ["Rice", "Wheat", "Citrus"],
+    "pricePerBag": 1350,
+    "seller": "Chelate Specialist",
+    "location": "Surat",
+    "contact": "9765432176"
+  },
+  {
+    "id": 36,
+    "name": "Potash Derived from Molasses (PDM)",
+    "nutrients": "14% K2O + Organic",
+    "suitableCrops": ["Sugarcane", "Banana", "Potato"],
+    "pricePerBag": 950,
+    "seller": "Organic Potash Mart",
+    "location": "Anand",
+    "contact": "9123456878"
+  },
+  {
+    "id": 37,
+    "name": "Nano Urea (Liquid)",
+    "nutrients": "4% Nitrogen (IFFCO)",
+    "suitableCrops": ["Wheat", "Rice", "Maize"],
+    "pricePerBag": 225,
+    "seller": "IFFCO Nano Outlet",
+    "location": "Ahmedabad",
+    "contact": "9876543310"
+  },
+  {
+    "id": 38,
+    "name": "Nano DAP (Liquid)",
+    "nutrients": "8% N + 16% P (IFFCO)",
+    "suitableCrops": ["Rice", "Cotton", "Pulses"],
+    "pricePerBag": 350,
+    "seller": "IFFCO Nano Outlet",
+    "location": "Ahmedabad",
+    "contact": "9988776577"
+  },
+  {
+    "id": 39,
+    "name": "Bone Meal",
+    "nutrients": "Organic Phosphorus + Calcium",
+    "suitableCrops": ["Flowers", "Vegetables", "Fruits"],
+    "pricePerBag": 480,
+    "seller": "Organic Bone Mart",
+    "location": "Rajkot",
+    "contact": "9765432187"
+  },
+  {
+    "id": 40,
+    "name": "Fish Meal Organic Fertilizer",
+    "nutrients": "High N + Micronutrients",
+    "suitableCrops": ["Vegetables", "Fruits"],
+    "pricePerBag": 620,
+    "seller": "Marine Organic Store",
+    "location": "Surat",
+    "contact": "9123456889"
+  },
+  {
+    "id": 41,
+    "name": "NPK 24-24-0",
+    "nutrients": "24% N, 24% P2O5",
+    "suitableCrops": ["Rice", "Wheat"],
+    "pricePerBag": 1650,
+    "seller": "High NP Fertilizer",
+    "location": "Vadodara",
+    "contact": "9876543321"
+  },
+  {
+    "id": 42,
+    "name": "NPK 17-17-17",
+    "nutrients": "17% each NPK",
+    "suitableCrops": ["Banana", "Sugarcane", "Vegetables"],
+    "pricePerBag": 1550,
+    "seller": "Balanced NPK Hub",
+    "location": "Gandhinagar",
+    "contact": "9988776566"
+  },
+  {
+    "id": 43,
+    "name": "Urea Phosphate",
+    "nutrients": "17% N + 44% P2O5",
+    "suitableCrops": ["Drip irrigation crops"],
+    "pricePerBag": 1850,
+    "seller": "Drip Fertilizer Store",
+    "location": "Ahmedabad",
+    "contact": "9765432198"
+  },
+  {
+    "id": 44,
+    "name": "Chelated Iron EDTA",
+    "nutrients": "12% Fe (chelated)",
+    "suitableCrops": ["Rice", "Sugarcane", "Citrus"],
+    "pricePerBag": 1280,
+    "seller": "Iron Chelate Mart",
+    "location": "Surat",
+    "contact": "9123456890"
+  },
+  {
+    "id": 45,
+    "name": "FYM Pellets (Organic Manure)",
+    "nutrients": "Organic NPK + Humus",
+    "suitableCrops": ["All crops"],
+    "pricePerBag": 320,
+    "seller": "Farm Yard Manure Depot",
+    "location": "Rajkot",
+    "contact": "9876543332"
+  },
+  {
+    "id": 46,
+    "name": "Trichoderma Biofungicide",
+    "nutrients": "Bio-control fungus",
+    "suitableCrops": ["All crops (soil borne diseases)"],
+    "pricePerBag": 280,
+    "seller": "Bio Protect Store",
+    "location": "Anand",
+    "contact": "9988776555"
+  },
+  {
+    "id": 47,
+    "name": "Potassium Nitrate",
+    "nutrients": "13% N + 46% K2O",
+    "suitableCrops": ["Tobacco", "Potato", "Tomato"],
+    "pricePerBag": 2050,
+    "seller": "Nitrate Potash",
+    "location": "Vadodara",
+    "contact": "9765432209"
+  },
+  {
+    "id": 48,
+    "name": "Copper Sulphate",
+    "nutrients": "24% Copper",
+    "suitableCrops": ["Rice", "Wheat", "Grapes"],
+    "pricePerBag": 1150,
+    "seller": "Copper Micro Store",
+    "location": "Bharuch",
+    "contact": "9123456901"
+  },
+  {
+    "id": 49,
+    "name": "Manganese Sulphate",
+    "nutrients": "30% Mn",
+    "suitableCrops": ["Wheat", "Maize", "Soybean"],
+    "pricePerBag": 980,
+    "seller": "Manganese Specialist",
+    "location": "Ahmedabad",
+    "contact": "9876543343"
+  },
+  {
+    "id": 50,
+    "name": "Bentonite Sulphur 90%",
+    "nutrients": "90% Elemental Sulphur",
+    "suitableCrops": ["Oilseeds", "Pulses", "Garlic"],
+    "pricePerBag": 780,
+    "seller": "Bentonite Sulphur Mart",
+    "location": "Surat",
+    "contact": "9988776544"
+  },
+  {
+    "id": 51,
+    "name": "Liquid Humic + Fulvic Acid",
+    "nutrients": "Humic 12% + Fulvic 6%",
+    "suitableCrops": ["All crops"],
+    "pricePerBag": 920,
+    "seller": "Liquid Organic Hub",
+    "location": "Rajkot",
+    "contact": "9765432210"
+  },
+  {
+    "id": 52,
+    "name": "VAM (Vesicular Arbuscular Mycorrhiza)",
+    "nutrients": "Mycorrhizal fungi",
+    "suitableCrops": ["All crops", "Especially horticulture"],
+    "pricePerBag": 380,
+    "seller": "VAM Bio Store",
+    "location": "Ahmedabad",
+    "contact": "9123456912"
+  }
+]
