@@ -23,7 +23,7 @@ const Navbar = () => {
     ];
 
     const navLinkClass = ({ isActive }) =>
-        `h-full flex items-center px-1 border-b-2 transition-all duration-300 ${isActive
+        `h-full flex items-center px-1 border-b-2 transition-all duration-300 whitespace-nowrap ${isActive
             ? 'text-primary-600 border-primary-600 font-extrabold'
             : 'text-gray-500 border-transparent hover:text-primary-400 hover:border-primary-200 font-bold'
         }`;
@@ -35,7 +35,7 @@ const Navbar = () => {
 
     return (
         <nav className="sticky top-0 bg-white/80 backdrop-blur-md border-b border-primary-100 h-20 px-6 z-50 transition-all duration-300">
-            <div className="max-w-7xl mx-auto flex justify-between items-center h-full">
+            <div className=" w-full mx-auto flex justify-between items-center h-full">
                 {/* Logo */}
                 <Link to="/" className="flex items-center gap-3 group shrink-0">
                     <div className="bg-primary-600 p-2.5 rounded-2xl group-hover:rotate-6 transition-transform shadow-sm">
@@ -45,7 +45,7 @@ const Navbar = () => {
                 </Link>
 
                 {/* Nav Links – role-aware */}
-                <div className="hidden lg:flex items-center gap-5 xl:gap-8 h-full text-sm">
+                <div className="hidden lg:flex items-center gap-5 xl:gap-8 h-full text-sm overflow-auto w-[45%] no-scrollbar">
                     {!user && (
                         <>
                             <NavLink to="/" className={navLinkClass}>{t('navHome')}</NavLink>
