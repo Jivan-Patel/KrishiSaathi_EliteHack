@@ -36,6 +36,7 @@ const Navbar = () => {
     return (
         <nav className="sticky top-0 bg-white/80 backdrop-blur-md border-b border-primary-100 h-20 px-6 z-50 transition-all duration-300">
             <div className=" w-full mx-auto flex justify-between items-center h-full">
+                {/* max-w-7xl */}
                 {/* Logo */}
                 <Link to="/" className="flex items-center gap-3 group shrink-0">
                     <div className="bg-primary-600 p-2.5 rounded-2xl group-hover:rotate-6 transition-transform shadow-sm">
