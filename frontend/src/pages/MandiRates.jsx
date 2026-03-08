@@ -40,10 +40,10 @@ const MandiRates = () => {
     if (loading) return <div className="p-20 text-center font-black text-primary-600 text-2xl italic">{t('loadingIntelligence')}</div>;
 
     return (
-        <div className="max-w-7xl mx-auto py-10 px-6 space-y-12">
+        <div className="max-w-7xl mx-auto py-6 sm:py-10 px-4 sm:px-6 space-y-8 sm:space-y-12">
             <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
                 <div>
-                    <h1 className="text-4xl font-black text-gray-900 italic tracking-tight uppercase">{t('mandiRatesTitle')}</h1>
+                    <h1 className="text-2xl sm:text-4xl font-black text-gray-900 italic tracking-tight uppercase">{t('mandiRatesTitle')}</h1>
                     <p className="text-gray-500 font-bold mt-2">{t('mandiRatesSubtitle')}</p>
                 </div>
                 <div className="flex flex-col md:items-end gap-3">
@@ -79,44 +79,46 @@ const MandiRates = () => {
                 </div>
             </div>
 
-            <div className="bg-white rounded-[2.5rem] shadow-premium border border-primary-50 overflow-hidden">
-                <table className="w-full text-left">
-                    <thead className="bg-surface-200 border-b border-primary-50">
-                        <tr>
-                            <th className="px-10 py-6 font-black uppercase text-xs tracking-widest text-primary-900">Crop Intellectual Name</th>
-                            <th className="px-10 py-6 font-black uppercase text-xs tracking-widest text-primary-900 text-right">Avg Market Rate</th>
-                        </tr>
-                    </thead>
-                    <tbody className="divide-y divide-primary-50">
-                        {filteredCrops.map(crop => (
-                            <tr key={crop.id} className="hover:bg-primary-50 transition-colors group cursor-pointer">
-                                <td className="px-10 py-6">
-                                    <div className="flex items-center gap-3">
-                                        <span className="font-black text-xl text-gray-900 italic group-hover:translate-x-1 transition-transform">{crop.name}</span>
-                                        {getTrend(crop.id).icon}
-                                    </div>
-                                </td>
-                                <td className="px-10 py-6 text-right">
-                                    <div className="flex items-center justify-end gap-2 text-primary-700 font-black text-2xl">
-                                        <IndianRupee size={22} className="opacity-50" />
-                                        {crop.avgMarketPricePerQuintal}
-                                        <span className="text-[10px] text-gray-400 font-medium uppercase tracking-widest ml-1">/ Quintal</span>
-                                    </div>
-                                </td>
-                            </tr>
-                        ))}
-                        {filteredCrops.length === 0 && (
+            <div className="bg-white rounded-2xl sm:rounded-[2.5rem] shadow-premium border border-primary-50 overflow-hidden">
+                <div className="overflow-x-auto">
+                    <table className="w-full text-left min-w-[500px]">
+                        <thead className="bg-surface-200 border-b border-primary-50">
                             <tr>
-                                <td colSpan="2" className="px-10 py-12 text-center text-gray-400 font-bold italic">
-                                    No crops match your search intelligence.
-                                </td>
+                                <th className="px-4 sm:px-10 py-4 sm:py-6 font-black uppercase text-xs tracking-widest text-primary-900">Crop Intellectual Name</th>
+                                <th className="px-4 sm:px-10 py-4 sm:py-6 font-black uppercase text-xs tracking-widest text-primary-900 text-right">Avg Market Rate</th>
                             </tr>
-                        )}
-                    </tbody>
-                </table>
+                        </thead>
+                        <tbody className="divide-y divide-primary-50">
+                            {filteredCrops.map(crop => (
+                                <tr key={crop.id} className="hover:bg-primary-50 transition-colors group cursor-pointer">
+                                    <td className="px-4 sm:px-10 py-4 sm:py-6">
+                                        <div className="flex items-center gap-3">
+                                            <span className="font-black text-lg sm:text-xl text-gray-900 italic group-hover:translate-x-1 transition-transform">{crop.name}</span>
+                                            {getTrend(crop.id).icon}
+                                        </div>
+                                    </td>
+                                    <td className="px-4 sm:px-10 py-4 sm:py-6 text-right">
+                                        <div className="flex items-center justify-end gap-1 sm:gap-2 text-primary-700 font-black text-xl sm:text-2xl">
+                                            <IndianRupee size={18} className="opacity-50 sm:w-[22px] sm:h-[22px]" />
+                                            {crop.avgMarketPricePerQuintal}
+                                            <span className="text-[10px] text-gray-400 font-medium uppercase tracking-widest ml-1">/ Quintal</span>
+                                        </div>
+                                    </td>
+                                </tr>
+                            ))}
+                            {filteredCrops.length === 0 && (
+                                <tr>
+                                    <td colSpan="2" className="px-4 sm:px-10 py-8 sm:py-12 text-center text-gray-400 font-bold italic">
+                                        No crops match your search intelligence.
+                                    </td>
+                                </tr>
+                            )}
+                        </tbody>
+                    </table>
+                </div>
             </div>
 
-            <div className="p-10 bg-primary-600 rounded-[2.5rem] text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+            <div className="p-6 sm:p-10 bg-primary-600 rounded-2xl sm:rounded-[2.5rem] text-white flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
                 <div className="space-y-2">
                     <h4 className="text-2xl font-black italic">Price Transparency Policy</h4>
                     <p className="text-primary-100 font-bold opacity-80">{t('mandiUpdateNote')}</p>

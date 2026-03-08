@@ -51,7 +51,7 @@ const CropDetail = () => {
     if (!crop) return <div className="p-20 text-center text-red-500 font-black">Crop not found</div>;
 
     return (
-        <div className="max-w-7xl mx-auto py-10 px-6 space-y-10 pb-20">
+        <div className="max-w-7xl mx-auto py-6 sm:py-10 px-4 sm:px-6 space-y-6 sm:space-y-10 pb-12 sm:pb-20">
             <button onClick={() => navigate(-1)} className="flex items-center gap-3 text-primary-700 font-black transition-transform active:scale-95 group">
                 <div className="w-12 h-12 rounded-2xl bg-white shadow-premium border border-primary-50 flex items-center justify-center group-hover:bg-primary-600 group-hover:text-white transition-all">
                     <ChevronLeft size={24} />
@@ -62,12 +62,12 @@ const CropDetail = () => {
             <div className="flex flex-col lg:flex-row gap-8 items-start">
                 {/* Main Content Area */}
                 <div className="flex-1 space-y-8">
-                    <header className="bg-linear-to-br from-primary-600 to-primary-800 rounded-[3rem] p-10 md:p-14 text-white shadow-2xl relative overflow-hidden">
+                    <header className="bg-linear-to-br from-primary-600 to-primary-800 rounded-2xl sm:rounded-[3rem] p-6 sm:p-10 md:p-14 text-white shadow-2xl relative overflow-hidden">
                         <div className="relative z-10 space-y-4">
                             <div className="inline-block bg-white/10 backdrop-blur-md px-4 py-1 rounded-full text-[10px] font-black uppercase tracking-[0.2em] border border-white/20">
                                 Verified Crop Intelligence
                             </div>
-                            <h1 className="text-5xl md:text-7xl font-black leading-none italic">{crop.name}</h1>
+                            <h1 className="text-3xl sm:text-5xl md:text-7xl font-black leading-none italic">{crop.name}</h1>
                             <p className="text-xl md:text-2xl text-primary-100 font-bold opacity-80">{crop.season} Season Special</p>
 
                             <div className="flex flex-wrap gap-4 pt-6">
@@ -165,7 +165,7 @@ const CropDetail = () => {
                 </div>
 
                 {/* Action/Advice Sidebar */}
-                <aside className="lg:w-96 space-y-8 sticky top-28">
+                <aside className="w-full lg:w-96 space-y-6 sm:space-y-8 lg:sticky lg:top-28">
                     <div className="premium-card bg-primary-50 border-primary-100 shadow-none">
                         <h3 className="text-xl font-black text-primary-900 border-b border-primary-100 pb-4 mb-6 flex items-center gap-2">
                             <Info size={20} className="text-primary-600" /> Fertilizer Plan
@@ -208,7 +208,7 @@ const CropDetail = () => {
                     {/* Ecosystem Grid */}
                     <div className="pt-8 border-t border-primary-50">
                         <h3 className="text-xs font-black text-primary-500 uppercase tracking-[0.2em] mb-6">Localized Ecosystem Actions</h3>
-                        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                        <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                             {[
                                 { title: 'Find Buyers', path: '/sell', icon: <Handshake size={20} />, sub: 'Direct Buyer Access' },
                                 { title: 'Check Market Price', path: '/mandi-rates', icon: <TrendingUp size={20} />, sub: 'Live Mandi Intel' },
