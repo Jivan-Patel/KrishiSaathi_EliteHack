@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { LanguageProvider } from './context/LanguageContext';
 import { AuthProvider } from './context/AuthContext';
 import ProtectedRoute from './components/ProtectedRoute';
@@ -19,14 +19,16 @@ import SellerDashboard from './pages/dashboards/SellerDashboard';
 import TransporterDashboard from './pages/dashboards/TransporterDashboard';
 import Navbar from './components/Navbar';
 
-function App() {
+const hideNavbarRoutes = ['/login', '/signup'];
+
+function AppLayout() {
+  const location = useLocation();
+  const showNavbar = !hideNavbarRoutes.includes(location.pathname);
+
   return (
-    <LanguageProvider>
-      <AuthProvider>
-        <Router>
-          <div className="min-h-screen bg-surface-100 font-outfit">
-            <Navbar />
-            <Routes>
+    <div className="min-h-screen bg-surface-100 font-outfit">
+      {showNavbar && <Navbar />}
+      <Routes>
               {/* Public routes */}
               <Route path="/login" element={<Login />} />
               <Route path="/signup" element={<Signup />} />
@@ -94,8 +96,17 @@ function App() {
                   <TransporterDashboard />
                 </ProtectedRoute>
               } />
-            </Routes>
-          </div>
+              </Routes>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <LanguageProvider>
+      <AuthProvider>
+        <Router>
+          <AppLayout />
         </Router>
       </AuthProvider>
     </LanguageProvider>
